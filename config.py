@@ -6,9 +6,9 @@ API_ID = os.environ.get("API_ID", "35943485")
 
 API_HASH = os.environ.get("API_HASH", "185886afadce6add3777d63e61ed3257")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8515491658:AAEDk3m7A-ww648kWXFQrYlyL8epJQXbCW0") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8376181960:AAFEPcmVZn4RXWmSeoJQLPyHwjRylssVG-Q") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "-1003663695128") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1003700566416") 
 
 DB_NAME = os.environ.get("DB_NAME","Cluster0")     
 
@@ -21,4 +21,5 @@ START_PIC = os.environ.get("START_PIC", "")
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6178309871').split()]
 
 PORT = os.environ.get("PORT", "8080")
+
 
